@@ -230,9 +230,11 @@ idea-gauntlet/
 │   ├── 04-diagnostic-overlays.md     — D1/D2/D3 overlay specs
 │   ├── 05-founder-os.md              — founder leverage & operating rhythm
 │   └── 06-deliverable-templates.md   — verdict / card / list templates
-└── examples/
-    ├── example-run-en.md             — full run, ☠️ buried on arrival
-    └── example-run-zh.md             — full run, 🛠 repair and re-run
+├── examples/
+│   ├── example-run-en.md             — full run, ☠️ buried on arrival
+│   └── example-run-zh.md             — full run, 🛠 repair and re-run
+└── tests/
+    └── quality-baseline.md           — 5 behavior tests + regression criteria
 ```
 
 ---
