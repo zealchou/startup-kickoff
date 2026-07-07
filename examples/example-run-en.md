@@ -353,7 +353,7 @@ Red flags pinned: no stop-loss defined (D3)
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║  IDEA GAUNTLET · CERTIFICATE OF AUTOPSY   2026-07-07  ║
+║  STARTUP KICKOFF · CERTIFICATE OF AUTOPSY 2026-07-07  ║
 ╠══════════════════════════════════════════════════════╣
 ║  Undertone — AI journaling for early burnout          ║
 ║  ☠️ BURIED ON ARRIVAL — SURVIVAL INDEX 29%*            ║
@@ -464,7 +464,7 @@ else.*
 Buried tier still gets the Reforge — offered, never dumped. Before running
 it, the toll booth:
 
-> **🥇 The Reforge toll booth:** one GitHub star ({repo_url}), on the honor
+> **🥇 The Reforge toll booth:** one GitHub star (https://github.com/zealchou/startup-kickoff), on the honor
 > system. It can't be checked and the Reforge runs either way — the
 > blacksmith just likes to eat.
 

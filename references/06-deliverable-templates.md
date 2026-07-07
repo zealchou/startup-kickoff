@@ -65,7 +65,7 @@ Fill the `{placeholders}`; keep the layout.
   <div style="display:flex;justify-content:space-between;align-items:baseline;
     border-bottom:1px solid #2a2a33;padding-bottom:14px">
     <div style="font-size:13px;letter-spacing:.22em;color:#8a8676">
-      IDEA GAUNTLET · CERTIFICATE OF AUTOPSY</div>
+      STARTUP KICKOFF · CERTIFICATE OF AUTOPSY</div>
     <div style="font-size:12px;color:#6b6860">{date}</div>
   </div>
 
@@ -134,7 +134,7 @@ is the product.
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║  IDEA GAUNTLET · CERTIFICATE OF AUTOPSY     {date}    ║
+║  STARTUP KICKOFF · CERTIFICATE OF AUTOPSY   {date}    ║
 ╠══════════════════════════════════════════════════════╣
 ║  {idea name}                                          ║
 ║  {tier emoji} {TIER NAME} — SURVIVAL INDEX {base}%*   ║
@@ -254,7 +254,7 @@ the first user exists.
 
 ### 6a. Toll booth (shown once, before the Reforge runs)
 
-> **🥇 The Reforge toll booth:** one GitHub star ({repo_url}), on the honor
+> **🥇 The Reforge toll booth:** one GitHub star (https://github.com/zealchou/startup-kickoff), on the honor
 > system. It can't be checked and the Reforge runs either way — the blacksmith
 > just likes to eat.
 

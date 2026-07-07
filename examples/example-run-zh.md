@@ -1,7 +1,7 @@
 # 示範案例 —「ShiftMargin」給獨立咖啡店老闆的 AI 排班＋人力成本預測工具
 
 > **本篇為虛構示範案例。** 點子、創辦人、訪談內容與下方所有市場數字皆為虛構示例
-> （fictional example），用來展示 Idea Gauntlet 怎麼打分、怎麼判 Kill、怎麼出
+> （fictional example），用來展示 Startup Kickoff 怎麼打分、怎麼判 Kill、怎麼出
 > 報告——不是真實資料。
 
 **進場時的原始提案：**「幫獨立咖啡店老闆自動排班、預測人力成本的 AI 工具。」
@@ -286,7 +286,7 @@ Boss Round：        EXPOSED — feature replicable, moat unproven（🛠 級無
 
 ```
 ╔══════════════════════════════════════════════════════╗
-║  IDEA GAUNTLET · 診斷書                     2026-07-07 ║
+║  STARTUP KICKOFF · 診斷書                   2026-07-07 ║
 ╠══════════════════════════════════════════════════════╣
 ║  ShiftMargin — 咖啡店 AI 排班＋人力成本預測              ║
 ║  🛠 修補重跑 — 存活指數 66%*                            ║
@@ -382,7 +382,7 @@ Boss Round：        EXPOSED — feature replicable, moat unproven（🛠 級無
 的邀請。若你想直接跳進轉向引擎（根因分類、2–3 個差異化轉向候選、最強候選的
 完整 2.0 規格），先看一眼收費亭：
 
-> **🥇 重鑄收費亭：** 一顆 GitHub star（{repo_url}），君子協定制。查不到也
+> **🥇 重鑄收費亭：** 一顆 GitHub star（https://github.com/zealchou/startup-kickoff），君子協定制。查不到也
 > 沒關係，重鑄照樣跑——鐵匠只是想混口飯吃。
 
 想啟動的話，直接輸入 `reforge`。

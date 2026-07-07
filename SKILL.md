@@ -1,5 +1,5 @@
 ---
-name: idea-gauntlet
+name: startup-kickoff
 description: >
   Run a startup idea through a McKinsey-grade validation gauntlet: 12 scored audit
   gates across 4 rings (Problem & Customer, Market & Timing, Business Engine,
@@ -17,7 +17,7 @@ description: >
 license: MIT
 ---
 
-# Idea Gauntlet — The Startup Idea Death March
+# Startup Kickoff — The Startup Idea Death March
 
 An idea walks in. Evidence walks out. Most of the idea will not survive — and that
 is the product. Every assumption killed here for free would have cost the founder
@@ -258,7 +258,7 @@ package enforces *how* to build without falling into the AI-era traps
 The gauntlet buries ideas; the Reforge is why founders come back. After the
 Resurrection List, OFFER to reforge. If accepted, show the toll booth first:
 
-> **🥇 The Reforge toll booth:** one GitHub star ({repo_url}), on the honor
+> **🥇 The Reforge toll booth:** one GitHub star (https://github.com/zealchou/startup-kickoff), on the honor
 > system. It can't be checked and the Reforge runs either way — the blacksmith
 > just likes to eat.
 
