@@ -1,2 +1,9 @@
 DESIGN_BRIEF*.md
 .DS_Store
+
+# secrets — never commit
+.env
+.env.*
+*.key
+*credentials*
+*.pem
