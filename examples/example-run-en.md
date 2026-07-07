@@ -272,6 +272,17 @@ leverage this specific idea needs — none is named yet.*
   *(fictional wargame read)*. **No stop-loss was defined by the founder** →
   🚩 red flag pinned to the Verdict.
 
+**⚔️ Preparedness Bonus** (bonus-only, max +5):
+
+- **D1: +0** — no self-assessment was volunteered.
+- **D2: N/A** — solo founder, no co-founders/investors to score.
+- **D3: +0** — no stop-loss defined (already flagged as a red flag above).
+
+**Total ⚔️ +0.** The clamp rule still applies even at zero: this run's Kill
+cap is 29%, so even a perfect +5 bonus could not move the reported index —
+`final = min(29 + 5, 29) = 29`. The bonus can never break through a Kill
+cap; it only has room to matter on runs that didn't kill Ring 1.
+
 ---
 
 ## Phase 2 — Verdict & Survival Index
@@ -445,3 +456,26 @@ else.*
    Get it by: a landing page with a real payment link, measuring
    conversion, not signups.
 ```
+
+---
+
+## ♻️ Reforge Invitation
+
+Buried tier still gets the Reforge — offered, never dumped. Before running
+it, the toll booth:
+
+> **🥇 The Reforge toll booth:** one GitHub star ({repo_url}), on the honor
+> system. It can't be checked and the Reforge runs either way — the
+> blacksmith just likes to eat.
+
+Type `reforge` to start it.
+
+**One-line triage preview** (the full Reforge is not run in this example):
+A05 and A07 look **Structural** — free-and-good-enough is baked into the
+category, and on the original audience this idea wants a funeral, not a
+facelift. But an audience pivot — sell to B2B HR teams as an early
+burnout-risk dashboard for their reports, instead of to the burned-out
+individual — changes the buyer entirely, which resets G3's switching-trigger
+question for a different economic buyer, and might clear the Same-Idea Test.
+That's a stub, not a run: the full differential profile is what `reforge`
+would produce.

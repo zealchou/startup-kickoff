@@ -338,13 +338,55 @@ the founder has never been, met, or sold to the target customer.
 
 ## Aggregation Reference
 
-- Assumption verdicts: ✅ = 1.0 · 🩸 = 0.5 · ☠️ = 0.0, weighted by the ring of
-  the gate each assumption hangs on (35/25/20/20).
-- Survival Index = weighted survived mass ÷ weighted total mass, expressed as
-  a percentage, always labeled "directional indicator, not a probability."
-- Kill caps: Ring-1 Kill → cap 29% · any other Kill → cap 54%. Caps do not
-  stack; the lowest applicable cap wins.
-- Tier from final capped index: ☠️ <30 · 🚑 30–54 · 🛠 55–74 · 🏆 ≥75.
-- Ring weights are a prior from startup mortality data (no-market-need
-  dominant), not ground truth — disclose this when asked and never present
-  the index with decimal places (false precision).
+**Evaluation order is fixed — base → cap → bonus → clamp. Never reordered.**
+
+1. Assumption verdicts: ✅ = 1.0 · 🩸 = 0.5 · ☠️ = 0.0, weighted by the ring of
+   the gate each assumption hangs on (35/25/20/20).
+2. **Base index** = weighted survived mass ÷ weighted total mass, expressed as
+   a percentage, always labeled "directional indicator, not a probability."
+3. Kill caps: Ring-1 Kill → cap 29% · any other Kill → cap 54%. Caps do not
+   stack; the lowest applicable cap wins. Caps apply to the BASE index.
+4. **Preparedness Bonus** (⚔️, from the overlays — see `04`, max +5, add-only):
+   `final = min(capped_base + bonus, applicable_cap or 100)`.
+   The bonus never lifts an idea above its kill cap. Preparation informs the
+   plan; it cannot resurrect a killed foundation.
+5. **Tier badge and certificate ranks read the CAPPED base index** — the
+   number after step 3's kill caps, before step 4's bonus. (A raw base of 60%
+   under a 54% cap tiers as 🚑 from 54, never 🛠 from 60 — caps dominate
+   tiers.) Display the medal separately (`base 66% ⚔️ +3 → 69%`). The bonused
+   number may cross the 30/55 advice lines in wording; the 🏆 badge (≥75) and
+   ranks (B 75–84 · A 85–92 · S 93+) are earned on capped-base evidence alone.
+   Boss Round EXPOSED drops one rank.
+6. Tier from capped base index: ☠️ <30 · 🚑 30–54 · 🛠 55–74 · 🏆 ≥75.
+7. Ring weights are a prior from startup mortality data (no-market-need
+   dominant), not ground truth — disclose this when asked and never present
+   the index with decimal places (false precision).
+
+## Boss Round Reference (after G12, not a 13th gate)
+
+- Attacker: the strongest steelman from G6. Pick ONE attack vector — the
+  strongest available, not all four: **price war** / **signal-gap** /
+  **segment flank** / **feature clone (90 days)**. Write only the chosen one.
+- Legal defenses are non-feature assets only: accumulated domain depth,
+  switching costs, channel ownership, earned trust, proprietary data loops.
+  "Our features are better" is not a defense here — features are the thing
+  being cloned.
+- Binary outcome: **WITHSTOOD** (names assets the attacker cannot replicate
+  fast) / **EXPOSED** (red flag on the Verdict: "feature replicable, moat
+  unproven"; 🏆 ideas drop one certificate rank). No index change either way.
+
+## Cross-Gate Convergence Rule
+
+When the same underlying flaw independently drives low scores or kills at two
+or more gates (e.g., "no observed willingness to change behavior" surfacing at
+both G3 and G8), name it in the Verdict as a **structural finding**. Structural
+findings are the primary input to the Reforge's root-cause triage — and a flaw
+tagged structural there is not pivotable.
+
+## Fairness Self-Audit (before presenting the Verdict)
+
+Review every refutation made during the run. Any attack that strawmanned the
+idea, over-reached its evidence tier, or attacked something the founder never
+claimed is listed in the appendix as "attempted, judged unfair, discounted" —
+and its effect on scores is removed. The gauntlet reports its own bad rulings;
+that is what makes the surviving rulings worth trusting.

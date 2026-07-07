@@ -1,6 +1,27 @@
-# Diagnostic Overlays (D1–D3)
+# Diagnostic Overlays (D1–D3) & Preparedness Bonus
 
-> **These overlays do not score.** They do not feed the Survival Index denominator and they never trigger a Kill. They run once, after the 12 scored gauntlet rings, and are reported as an independent layer — a body-composition scan next to the pass/fail exam. Their job is to surface risk that a scoring rubric would flatten: structural business health, human/equity exposure, and strategic posture. Present all three even when the venture scored well; a 🏆 verdict with an unaddressed red flag in D2 or D3 still ships with a warning label.
+> **These overlays never enter the Survival Index denominator and never
+> trigger a Kill.** They run once, after the 12 scored gates, and produce TWO
+> outputs: (1) **qualitative red flags** pinned to the Verdict — the alarm
+> function, unchanged and never silenced by good bonus scores; (2) the
+> **Preparedness Bonus (⚔️, add-only, max +5 total)** — founders who arrive
+> prepared earn points; unprepared founders are never additionally punished.
+> Bonus arithmetic and its hard limits (applied after kill caps, clamped to
+> them; tier badges read the capped base index only) live in `03`,
+> Aggregation Reference.
+> Present all three overlays even when the venture scored well; a 🏆 verdict
+> with an unaddressed red flag in D2 or D3 still ships with a warning label.
+
+## Preparedness Bonus criteria (⚔️ max +5)
+
+| Slot | Award | Criteria (all required) | Zeroed by |
+|---|---|---|---|
+| D1 | +1–2 | Founder volunteered a genuine 12-dimension self-assessment; +2 only if the short-term-sprint lane contains actual moves, not intentions | fabricated or perfunctory self-ratings |
+| D2 | +1–2 | Co-founders/investors exist AND equity hygiene complete: vesting + cliff + the four written agreements; +2 if all four agreements are signed, not drafted | **any manipulation red flag → slot = 0**; solo founder → N/A (not 0) |
+| D3 | +1 | A concrete, observable stop-loss clause: named trigger + defined reversal action | vague stop-loss ("we'll reassess") earns nothing |
+
+Report the medal as a separate line (`⚔️ Prepared +3: D1+2, D3+1`), never
+folded silently into the index.
 
 ---
 

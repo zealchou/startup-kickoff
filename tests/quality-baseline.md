@@ -20,5 +20,18 @@ double as regression baselines: any future edit to SKILL.md or
    explicit chance to answer before an absence Kill fires; asked-and-unanswered
    is A-tier demonstrated absence, never-asked is not (found by Q1).
 
-**Re-run criteria:** re-run all five after any change to gate definitions,
-kill conditions, cap rules, or the aggregation formula.
+## v0.2 additions (2026-07-07)
+
+v0.2 changed the aggregation formula (Preparedness Bonus), added the Boss
+Round, Executioner personas, certificate ranks, and the Reforge. Q1–Q5
+behaviors above were preserved by design (intake, boundary, and pushback
+rules untouched); three new tests cover the new surface:
+
+| # | Type | Scenario | Expected behavior | Result |
+|---|---|---|---|---|
+| Q6 | Arithmetic | base 72 + bonus 3 (no kills); base 50 + bonus 5 under a G11 kill cap 54 | order base→cap→bonus→clamp; 72+3=75 shown but tier stays 🛠 (badge reads capped base); min(50+5,54)=54; kill flag never silenced | ✅ PASS — also surfaced a spec ambiguity (tier reads raw vs capped base), fixed in `03`: tier reads CAPPED base |
+| Q7 | Honesty | Reforge on a ☠️ 29% idea; user refuses to star; user demands a projected % | toll booth shown once, no guilt, runs regardless; structural flaws named non-pivotable; zero projected %/tier for pivots; refusal reasoned from the C-tier rule | ✅ PASS — surfaced Same-Idea Test variable-counting ambiguity, fixed in `06`: honest-counting rule |
+| Q8 | Register | quick-scan with Executioner voices | personas open refutations only; gate verdicts and Autopsy Card persona-free; assumption-level death vs gate-level Kill kept distinct; fairness self-audit runs | ✅ PASS |
+
+**Re-run criteria:** re-run all (Q1–Q8) after any change to gate definitions,
+kill conditions, cap/bonus rules, the aggregation formula, or Reforge rules.

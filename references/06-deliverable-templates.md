@@ -1,9 +1,13 @@
 # Deliverable Templates
 
 Order of delivery: Executive Verdict → Autopsy Card → Resurrection List →
-(offer) Full Appendix → (🏆 only) Kickoff Package. The tier is always the
-headline. Deliver in the user's language; keep structural labels bilingual if
-the user's language is not English.
+(offer) Full Appendix → (🏆 only) Kickoff Package → (non-🏆) offer the Reforge.
+The tier is always the headline. Deliver in the user's language; keep
+structural labels bilingual if the user's language is not English.
+
+**Persona-free rule:** executioner names and quips never appear in any
+deliverable in this file — they live in the gauntlet transcript only. Cards,
+certificates, and verdicts stay cold, falsifiable, and quotable.
 
 ---
 
@@ -11,7 +15,8 @@ the user's language is not English.
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  {TIER EMOJI} {TIER NAME} — Survival Index {N}%*
+  {TIER EMOJI} {TIER NAME} — Survival Index {base}%*
+  {if bonus>0: ⚔️ Prepared +{bonus} → {final}%   (tier reads capped base)}
   {idea name, one line}
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -29,7 +34,10 @@ Top kills:   1. {assumption} — {one-line cause of death}
              2. …
              3. …
 Strongest surviving asset: {the assumption/dimension that held under attack}
-Red flags pinned: {D2/D3 flags, e.g., "no stop-loss defined"}
+Boss round: {WITHSTOOD — defended by {asset} / EXPOSED — feature replicable,
+             moat unproven}
+Red flags pinned: {D2/D3/Boss flags, e.g., "no stop-loss defined"}
+Structural findings: {cross-gate convergence flaws, if any — see 03}
 
 *Directional indicator, not a probability.
 ```
@@ -69,9 +77,13 @@ Fill the `{placeholders}`; keep the layout.
     <div>
       <div style="font-size:64px;font-weight:700;line-height:1;
         color:{tier color: ☠️ #c0392b / 🚑 #d35400 / 🛠 #b7950b / 🏆 #27ae60}">
-        {index}%</div>
+        {base}%</div>
       <div style="font-size:11px;color:#6b6860;margin-top:4px">
         SURVIVAL INDEX — directional, not a probability</div>
+      <!-- only when bonus > 0: -->
+      <div style="font-size:12px;color:#b7950b;margin-top:6px">
+        ⚔️ Prepared +{bonus} → {final}% <span style="color:#6b6860">
+        (tier reads capped base)</span></div>
     </div>
     <div style="flex:1;font-size:12px;color:#b5b1a6">
       <!-- one bar per ring: width = ring survival % -->
@@ -125,7 +137,8 @@ is the product.
 ║  IDEA GAUNTLET · CERTIFICATE OF AUTOPSY     {date}    ║
 ╠══════════════════════════════════════════════════════╣
 ║  {idea name}                                          ║
-║  {tier emoji} {TIER NAME} — SURVIVAL INDEX {index}%*  ║
+║  {tier emoji} {TIER NAME} — SURVIVAL INDEX {base}%*   ║
+║  {if bonus>0: ⚔️ PREPARED +{bonus} → {final}%}        ║
 ║                                                       ║
 ║  Problem & Customer      {████████░░░░}  {r1}%        ║
 ║  Market & Timing         {██████░░░░░░}  {r2}%        ║
@@ -152,6 +165,14 @@ by the **strongest evidence** of the run, footer `cleared to kick off —
 kickoff package attached`. Keep one 🪦 if anything died: survivors should
 remember their scars — it keeps the certificate credible.
 
+**Rank badge** (top-right corner, reads the CAPPED base index only — after
+Kill caps, before bonus): `RANK B` 75–84 ·
+`RANK A` 85–92 · `RANK S` 93+. Boss Round EXPOSED drops one rank and the
+certificate says why in one line ("rank capped: moat unproven against
+{competitor}"). An S-rank requires multiple independent A-tier evidence
+strands AND a WITHSTOOD boss round — if S-ranks feel common, the scoring has
+drifted.
+
 ---
 
 ## 3. Resurrection List
@@ -162,9 +183,19 @@ cruelty, not diligence:
 ```
 ⚰️ {A07} {assumption} — killed at {gate}
    Revives if: {the specific evidence that would flip the verdict}
-   Get it by: {concrete Mom-Test-style action — who to talk to, what
-              past-tense question to ask, what data to pull, ~effort}
+   Get it by: {a named experiment + who/what/how, ~effort}
 ```
+
+**Named experiment types** — every "get it by" action uses one of these, each
+bounded at ≤2 weeks and ≤$100:
+- **Interviews** — Mom-Test past-tense conversations (who to talk to, what
+  past-tense question to ask).
+- **Fake-door** — a landing page / sign-up sheet for the thing that doesn't
+  exist yet; measures real click-through and contact-leaving, not opinions.
+- **Concierge** — deliver the value manually to 1–3 customers before building
+  anything; measures willingness to pay and where the process actually hurts.
+- **RAT** (riskiest-assumption test) — the smallest observable behavior test
+  aimed at the single assumption most likely to kill the idea.
 
 Sort by leverage: the resurrection that would move the index most goes first.
 This list doubles as the user's validation to-do list — that's the point.
@@ -216,3 +247,64 @@ targets · the false-positive profile for THIS product (signups without
 activation? revenue without retention? enthusiasm without repeat usage?) ·
 Sean Ellis 40% checkpoint once there are ~30+ active users. Defined before
 the first user exists.
+
+---
+
+## 6. The Reforge (non-🏆 tiers; offered after the Resurrection List)
+
+### 6a. Toll booth (shown once, before the Reforge runs)
+
+> **🥇 The Reforge toll booth:** one GitHub star ({repo_url}), on the honor
+> system. It can't be checked and the Reforge runs either way — the blacksmith
+> just likes to eat.
+
+Rules: this is an invitation, never a lock. No guilt-framing, no withholding,
+no second ask. If the user declines or ignores it, proceed identically.
+
+### 6b. Weakness triage table
+
+| Killed/wounded assumption | Gate | Root cause class | Pivotable? |
+|---|---|---|---|
+| {A09 why-now absent} | G5 | Knowledge-gap | no — go research, don't pivot around it |
+| {A05 free incumbents good enough} | G3 | Structural | no — inherent to this idea |
+| {A14 channel unproven} | G8 | Addressable | yes |
+
+Classes: **Structural** (inherent; only drop or redesign from scratch) ·
+**Situational** (founder's current constraints; fixable) · **Knowledge-gap**
+(missing data; collect it first) · **Addressable** (concrete fix exists).
+If the deadliest flaws are structural, say so plainly: this idea wants a
+funeral, not a facelift — and that conclusion IS the deliverable.
+
+### 6c. Pivot candidate — differential profile (one per candidate)
+
+```
+♻️ PIVOT {n}: {name} — type: {audience-narrow / niche / wedge / value-prop /
+              pricing / distribution / platform / monetization / problem}
+   Changes (max 2): {variable 1} → {new value}; {variable 2} → {new value}
+   Same-Idea Test: PASS — keeps {the A/B-tier assumption(s) retained}
+   Removes these deaths:  {A05, A09 …}
+   Keeps these assets:    {A16 prototype evidence, A18 founder fit …}
+   Introduces NEW C-tier: {N1 …, N2 …, N3 …}   ← all unvalidated by definition
+   Second-order effects:  {e.g., audience narrowing helps G8, hurts G4}
+   Effort class: {weekend / 1–3 weeks / 1–3 months}{ — flagged risky if
+                  months-scale without large structural gain}
+```
+
+**Variable counting is honest counting:** buyer, problem, product form,
+channel, pricing model, and platform each count as ONE variable. When in
+doubt whether something changed, count it as changed — the Same-Idea Test
+exists to stop new ideas from wearing a pivot's clothes.
+
+**Never output** a projected Survival Index, percentage, or tier badge for a
+pivot. Projections with scores are pseudo-precision through the back door.
+The structural diff — what dies, what survives, what new risk enters — is the
+honest comparison. A pivot changing 3+ variables fails the Same-Idea Test:
+present it as a NEW idea candidate, labeled as such.
+
+### 6d. Idea 2.0 spec (strongest candidate only; others get one-line stubs)
+
+New testable hypothesis (Phase 0 shape) → delta ledger (retained / removed /
+new assumptions with tiers) → **the three most fragile new assumptions,
+named** → recommended first experiment for each (from the named types in §3)
+→ closing line: "Projected structure is not measured survival — run `rerun`
+when the first evidence lands."
